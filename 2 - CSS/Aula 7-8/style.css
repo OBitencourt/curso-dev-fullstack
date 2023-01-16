@@ -1,0 +1,30 @@
+body{
+   background-color: rgb(221, 221, 221);
+   
+}
+p{
+    color: rgb(77, 77, 77);
+}
+.Foto{
+    
+    width: 400px;
+    border: 3px solid rgb(255, 255, 255);  /*forma mais rapida de fazer uma borda*/
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 500px;
+    box-shadow: 0px 0px 10px black;
+    
+    /*padding*/
+     
+    
+    /*border-left: 10px solid #a5a5a5;  - outra forma de fazer as bordas controlando cada parte delas -
+    border-right: 10px solid #8e8e8e; 
+    border-top: 5px dotted #a1a1a1;
+    border-bottom: 5px dotted #7b7b7b;*/
+   
+   
+    /*border-width: 5px;
+    border-style: dashed;
+    border-color: black;
+    é a mesma coisa*/
+}
