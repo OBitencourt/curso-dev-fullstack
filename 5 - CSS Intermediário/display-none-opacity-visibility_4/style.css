@@ -1,0 +1,20 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/realistic-galaxy-background_52683-12122.jpg?w=2000);
+}
+
+ul {
+    padding: 20px;
+    background-color: grey;
+    opacity: 0.5;
+   
+    /*visibility: hidden;  esconde o elemento porém sua área continua opcupada*/
+    /*display: none; esconde e desopcupa a área do elemento*/
+    /*opacity: 0.5 m,exe na transparência de um elemento*/
+}
+
+
+ul li {
+    display: inline-block;
+    margin: 20px;
+    
+}

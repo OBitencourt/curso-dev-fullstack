@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.treino {
+    width: 700px;
+    height: 800px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+ }
+ h1 {
+    color: white;
+    padding-top: 50%;
+    font-family: 'Lato', sans-serif;
+ }

@@ -1,0 +1,9 @@
+p { 
+    color: red;
+}
+.exemplo1 p  {
+    color: blue;
+}
+.exemplo2 > p {
+    color: blue;
+}

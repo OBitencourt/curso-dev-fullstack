@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 150px;
+}
+.box {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: auto;
+    transition-duration: 400ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.6, -0.08, 0.39, 1.16); 
+    /*transition: all 400ms ease-in 100ms;*/
+    /*transition-delay: 100ms;*/
+    /*cubic-bezier(0.64,-0.36, 1, 0.43)*/ /*cubic-bezier(0.96,-0.34, 0, 1.29)*/ /*cubic-bezier(0.78, -1.15, 0.2, 2.74)*/
+}
+.box:hover {
+    background-color: red;
+    width: 250px;
+    height: 100px;
+
+}

@@ -1,0 +1,11 @@
+.rick {
+    width: 500px;
+    filter: brightness(120%);
+   
+}
+.rick:hover {
+    filter: blur(0px);
+}
+h1 {
+    filter: blur(0px);
+}

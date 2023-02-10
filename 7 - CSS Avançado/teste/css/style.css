@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 100px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: auto;
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.64,-0.36, 1, 0.43);
+}
+.box:hover {
+    background-color: red;
+    width: 200px;
+    transform: rotate(180deg) translate(20px , 10px) scale(2 , 2);
+
+}

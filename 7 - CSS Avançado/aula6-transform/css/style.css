@@ -1,0 +1,18 @@
+
+body {
+    margin: 100px;
+}
+.box {
+    
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 0px;
+    transition: all 200ms;
+}
+.box:hover {
+    background-color: red;
+    transform: rotate(180deg) scale(2 , 1) skew(5deg);
+    box-shadow: 0 0 10px black;
+    border: 2px solid black;
+}

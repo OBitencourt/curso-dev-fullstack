@@ -1,0 +1,36 @@
+
+body {
+    margin: 100px;
+}
+.box {
+    
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 0px;
+   
+    animation-delay: 2s;
+    animation-name: minhaAnimacao;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    animation-direction: alternate-reverse;
+}
+ @keyframes minhaAnimacao {
+    0% {
+        background-color: black;
+    }
+    50% {
+        background-color: red;
+        transform: translate(20px, 50px) rotate(180deg);
+        border: 3px solid black;
+        border-radius: 30px;
+    }
+    100% {
+        background-color: black;
+        transform: translate(0px, 0px) rotate(-180deg);
+        border-radius: 0px;
+    }
+    
+    
+}

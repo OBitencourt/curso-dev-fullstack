@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px 0px;
+    font-size: 40px;
+   
+    
+    
+}
+.container{
+    display: flex;
+}
+.navbar{
+    width: 30%;
+    background-color: #ffffff;
+    padding: 50px;
+    padding-top: 15px;
+
+}
+.content{
+    border: 0px solid rgb(255, 255, 255);
+    width: 70%;
+    background-color: rgb(233, 233, 233);
+    padding: 50px;
+    border-top-left-radius: 90px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.navbar li{
+    list-style: none;
+    padding: 20px;
+    background-color: rgb(77, 77, 222);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.footer{
+    background-color: rgb(255, 255, 255);;
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+}
+.navbar li a{
+    display: flex;
+    justify-content: block;
+    text-decoration: none;
+    display: block;
+    color: white;
+    background-color: rgb(77, 77, 222);
+    padding: 3px;
+    text-align: center;
+}
+.ondas{
+    width: 250px;
+    margin-top: 15px;
+}
+h2{
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    color: rgb(93, 104, 111);
+    font-family: 'Architects Daughter', cursive;
+    
+}
+.article content{
+   margin: 10px;
+}
+.container ul li button{
+    border: 0px solid blue;
+    
+    
+}
